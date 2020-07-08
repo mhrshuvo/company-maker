@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MultiPage reg</title>
+    <link rel="stylesheet" href="regstyle.css">
+</head>
+<body>
+    
+
+    <Form id ="multiphase" onsubmit= "return false">
+        <div id = "phase1">
+            <input type="text" id="fullName" name="fullName" placeholder="Full name"><br>
+            <input type="text" id="emailId" name="emailId" placeholder="Email ID"><br>
+            <button onclick="processPhase1()">Submit</button>
+        </div>
+        <div id = "phase2">
+            <input type="text" id="country" name="country" placeholder="country"><br>
+            <input type="text" id="phoneNo" name="phoneNo" placeholder="Phone Number"><br>
+            <button onclick="processPhase2()">Submit</button>
+        </div>
+        <div id = "phase3">
+            <input type="text" id="presentAddress" name="presentAddress" placeholder="Present Address"><br>
+            <input type="text" id="parmanentAddress" name="parmanentAddress" placeholder="Parmanent Address"><br>
+            <button onclick="processPhase3()">Submit</button>
+        </div>
+        <div id = "phase4">
+            <input type="text" id="photo" name="photo" placeholder="Photo"><br>
+            <input type="text" id="validationId" name="validationId" placeholder="validationid"><br>
+            <button onclick="processPhase4()">Submit</button>
+            <div id="showAllData">
+                <span id="showFullName"></span>
+                <span id="showEmailID"></span>
+                <span id="showCountry"></span>
+                <span id="showPhoneNo"></span>
+                <span id="showPresentAddress"></span>
+                <span id="showParmanentAddress"></span>
+            </div>
+        </div>
+    
+    
+    </Form>
+    
+
+<script src="regSandbox.js"></script>
+</body>
+</html> 
