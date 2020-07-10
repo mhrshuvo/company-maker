@@ -6,7 +6,33 @@ function _(x){
     return document.getElementById(x);
 }
 
+//Div driver start
+function login(){
+    _("login").style.display ="block";
+    _("LoginRegister").style.display ="none";
+}
 
+function loginAs(catagory){
+    _("loginForm").style.display ="block";
+    _("login").style.display ="none";
+}
+
+function register(){
+    _("register").style.display ="block";
+    _("LoginRegister").style.display ="none";
+}
+
+function registerAs(catagory){
+    _("register").style.display ="none";
+    _("phase1").style.display ="block";
+
+}
+
+//Div driver End
+
+//note processPhaseN() can be done by class and object . it need to try... otherwise its ok
+
+// Form multiphase start
 function processPhase1(){
     fullName = _("fullName").value;
     emailId   = _("emailId").value;
@@ -63,6 +89,9 @@ function processPhase4(){
         alert("please fill in the field");
     }
 }
+
 function submitForm(){
 	
 }
+
+// Form multiphase end

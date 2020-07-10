@@ -7,10 +7,34 @@
     <link rel="stylesheet" href="regstyle.css">
 </head>
 <body>
+    <div id="driver">
+        <div id="LoginRegister">
+            <button onclick="login()">Login</button>
+            <button onclick="register()">Register</button>
+        </div>
+
+        <div Id="login">
+            <button onclick="loginAs('clint')">login as clint</button>
+            <button onclick="loginAs('member')">login as member</button>
+        </div>
+        
+        <div id="register">
+            <button onclick="registerAs('clint')">Register as clint</button>
+            <button onclick="registerAs('member')">Register as member</button>
+        </div>
+    </div>
+
+    <form id="loginForm">
+        <p>Login</p>
+        <input type="text" id="userName" name="userName" placeholder="Username"><br>
+        <input type="text" id="password" name="password" placeholder="Password"><br>
+        <button onclick="">Submit</button>
+    </form>
     
 
     <Form id ="multiphase" onsubmit= "return false">
         <div id = "phase1">
+            <p>Register</p>
             <input type="text" id="fullName" name="fullName" placeholder="Full name"><br>
             <input type="text" id="emailId" name="emailId" placeholder="Email ID"><br>
             <button onclick="processPhase1()">Submit</button>

@@ -1,16 +1,36 @@
-form #phase2 {
+* {
+  text-align: center;
+}
+
+#driver #login {
   display: none;
 }
 
-form #phase3 {
+#driver #register {
   display: none;
 }
 
-form #phase4 {
+#loginForm {
   display: none;
 }
 
-form #showAllData {
+#multiphase #phase1 {
+  display: none;
+}
+
+#multiphase #phase2 {
+  display: none;
+}
+
+#multiphase #phase3 {
+  display: none;
+}
+
+#multiphase #phase4 {
+  display: none;
+}
+
+#multiphase #showAllData {
   display: none;
 }
 /*# sourceMappingURL=regstyle.css.map */
