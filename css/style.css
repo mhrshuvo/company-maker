@@ -22,11 +22,11 @@ body {
 
 .box {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1.8rem;
   justify-content: center;
   align-items: start;
-  height: 470px;
+  height: 100%;
   background-color: #132430;
   font-family: 'Baloo Paaji 2', cursive;
 }
@@ -49,6 +49,10 @@ body {
   
 }
 
+#menu-card .last .box-card {
+    margin-bottom: 3.5rem;
+    width: 200px;
+}
 #menu-card .card__name {
   margin-top: 15px;
   font-size: 1.5em;
