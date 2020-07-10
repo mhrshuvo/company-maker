@@ -86,8 +86,13 @@ function processPhase4(){
     validationId   = _("validationId").value;
 	if(photo.length > 4 && validationId.length > 4){
         _("phase4").style.display ="none";
-        submitForm();
+        _("showAllData").style.display ="block";
 
+        _("full_Name").innerHTML = fullName ;
+		_("email_Id").innerHTML = emailId;
+		_("country_name").innerHTML = country;
+        _("phone_number").innerHTML = phoneNo;
+        
     } else{
         alert("please fill in the field");
     }
@@ -95,7 +100,7 @@ function processPhase4(){
 
 function submitForm(){
     console.log (fullName, emailId ,country,phoneNo,presentAddress,parmanentAddress);
-    
+
     _("multiphase").method = "post";
 	_("multiphase").action = "controller.php";
 	_("multiphase").submit();
