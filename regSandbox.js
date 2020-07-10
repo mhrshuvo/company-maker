@@ -13,6 +13,11 @@ function login(){
 }
 
 function loginAs(catagory){
+    if(catagory === "Client"){
+        console.log(catagory);
+    }else{
+        console.log("member");
+    }
     _("loginForm").style.display ="block";
     _("login").style.display ="none";
     _("LoginRegister").style.display ="none";
@@ -24,6 +29,11 @@ function register(){
 }
 
 function registerAs(catagory){
+    if(catagory === "Client"){
+        console.log(catagory);
+    }else{
+        console.log("member");
+    }
     _("register").style.display ="none";
     _("phase1").style.display ="block";
     _("LoginRegister").style.display ="none";
@@ -76,16 +86,7 @@ function processPhase4(){
     validationId   = _("validationId").value;
 	if(photo.length > 4 && validationId.length > 4){
         _("phase4").style.display ="none";
-        _("showAllData").style.display = "block";
-
-        // console.log ("processPhase4");
-        // _("showFullName").innerHTML = fullName;
-        // _("showEmailID").innerHTML = emailId;
-        // _("showCountry").innerHTML = country;
-        // _("showPhoneNo").innerHTML = phoneNo;
-        // _("showPresentAddress").innerHTML = presentAddress;
-        // _("showParmanentAddress").innerHTML = parmanentAddress;
-        // console.log ("processPhase4");
+        submitForm();
 
     } else{
         alert("please fill in the field");
@@ -93,7 +94,11 @@ function processPhase4(){
 }
 
 function submitForm(){
-	
+    console.log (fullName, emailId ,country,phoneNo,presentAddress,parmanentAddress);
+    
+    _("multiphase").method = "post";
+	_("multiphase").action = "controller.php";
+	_("multiphase").submit();
 }
 
 // Form multiphase end
