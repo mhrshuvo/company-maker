@@ -9,22 +9,24 @@ function _(x){
 //Div driver start
 function login(){
     _("login").style.display ="block";
-    _("LoginRegister").style.display ="none";
+    _("register").style.display ="none";
 }
 
 function loginAs(catagory){
     _("loginForm").style.display ="block";
     _("login").style.display ="none";
+    _("LoginRegister").style.display ="none";
 }
 
 function register(){
     _("register").style.display ="block";
-    _("LoginRegister").style.display ="none";
+    _("login").style.display ="none";
 }
 
 function registerAs(catagory){
     _("register").style.display ="none";
     _("phase1").style.display ="block";
+    _("LoginRegister").style.display ="none";
 
 }
 
