@@ -7,15 +7,16 @@
     <link rel="stylesheet" href="regstyle.css">
 </head>
 <body>
+    <div class="wrapper">
     <div id="driver">
-        <div id="LoginRegister">
-            <button onclick="login()">Login</button>
-            <button onclick="register()">Register</button>
+        <div id="LoginRegister" class="formHead">
+            <a href="#" onclick="login()">Login</a>
+            <a href="#" onclick="register()">Register</a>
         </div>
 
         <div Id="login">
-            <button onclick="loginAs('Client')">login as client</button>
-            <button onclick="loginAs('Member')">login as member</button>
+            <a href="#" onclick="loginAs('Client')">login as client</a>
+            <a href="#" onclick="loginAs('Member')">login as member</a>
         </div>
         
         <div id="register">
@@ -66,7 +67,7 @@
     
     
     </Form>
-    
+</div>
 
 <script src="regSandbox.js"></script>
 </body>

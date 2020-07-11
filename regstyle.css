@@ -1,5 +1,22 @@
 * {
   text-align: center;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(resource/reg.svg);
+  height: 80vh;
+}
+
+.formHead {
+  width: 670px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  font-size: 32px;
+  margin: 100px auto;
 }
 
 #driver #login {

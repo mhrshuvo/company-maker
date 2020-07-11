@@ -1,0 +1,18 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<rect width="1440" height="1024" fill="white"/>
+<rect width="1440" height="1024" fill="#0003FF" fill-opacity="0.6"/>
+<circle opacity="0.5" cx="1306.07" cy="227.065" r="86.0654" fill="white" fill-opacity="0.25"/>
+<circle opacity="0.5" cy="908" r="50" fill="white" fill-opacity="0.25"/>
+<circle opacity="0.5" cx="903.065" cy="518.065" r="86.0654" fill="white" fill-opacity="0.25"/>
+<ellipse opacity="0.5" cx="49" cy="142.97" rx="100" ry="96.9697" fill="white" fill-opacity="0.25"/>
+<circle opacity="0.5" cx="522" cy="520" r="25" fill="white" fill-opacity="0.25"/>
+<circle opacity="0.5" cx="1331" cy="883" r="25" fill="white" fill-opacity="0.25"/>
+<circle opacity="0.5" cx="1256" cy="958" r="25" fill="white" fill-opacity="0.25"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="1440" height="1024" fill="white"/>
+</clipPath>
+</defs>
+</svg>
