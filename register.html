@@ -10,23 +10,23 @@
     <div class="wrapper">
     <div id="driver">
         <div id="LoginRegister" class="formHead">
-            <a href="#" onclick="login()">Login</a>
-            <a href="#" onclick="register()">Register</a>
+            <button class="button" onclick="login()">Login</button>
+            <button class="button" onclick="register()">Register</button>
         </div>
 
         <div Id="login">
-            <a href="#" onclick="loginAs('Client')">login as client</a>
-            <a href="#" onclick="loginAs('Member')">login as member</a>
+            <button class="button" onclick="loginAs('Client')">login as client</button>
+            <button class="button" onclick="loginAs('Member')">login as member</button>
         </div>
         
         <div id="register">
-            <button onclick="registerAs('Client')">Register as client</button>
-            <button onclick="registerAs('Member')">Register as member</button>
+            <button class="button" onclick="registerAs('Client')">Register as client</button>
+            <button class="button" onclick="registerAs('Member')">Register as member</button>
         </div>
     </div>
 
     <form id="loginForm" onsubmit= "return false">
-        <p>Login</p>
+        <p class="formHead landr">Login</p>
         <input type="text" id="userName" name="userName" placeholder="Username"><br>
         <input type="password" id="password" name="password" placeholder="Password"><br>
         <button onclick="">Submit</button>
@@ -35,7 +35,7 @@
 
     <Form id ="multiphase" onsubmit= "return false">
         <div id = "phase1">
-            <p>Register</p>
+            <p class="formHead landr">Register</p>
             <input type="text" id="fullName" name="fullName" placeholder="Full name"><br>
             <input type="emai" id="emailId" name="emailId" placeholder="Email ID"><br>
             <button onclick="processPhase1()">Submit</button>

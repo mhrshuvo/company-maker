@@ -10,13 +10,14 @@ body {
   height: 80vh;
 }
 
-.formHead {
-  width: 670px;
-  height: 100px;
-  background: rgba(255, 255, 255, 0.25);
+.button {
+  padding: 20px 92px;
   border-radius: 15px;
+  max-width: 335px;
+  background: rgba(255, 255, 255, 0.25);
+  color: black;
   font-size: 32px;
-  margin: 100px auto;
+  font-weight: bold;
 }
 
 #driver #login {
@@ -25,6 +26,11 @@ body {
 
 #driver #register {
   display: none;
+}
+
+.landr {
+  color: red;
+  justify-content: center;
 }
 
 #loginForm {
@@ -49,5 +55,16 @@ body {
 
 #multiphase #showAllData {
   display: none;
+}
+
+.formHead {
+  width: 600px;
+  height: 90px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  font-size: 32px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
 }
 /*# sourceMappingURL=regstyle.css.map */
