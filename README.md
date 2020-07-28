@@ -1,3 +1,3 @@
 # company-maker
-##backend Bindu
-##fontend Ashraf and Shuvo
+## backend Bindu \n
+## fontend Ashraf and Shuvo
